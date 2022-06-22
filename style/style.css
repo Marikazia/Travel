@@ -14,6 +14,7 @@ header {
   height: 90px;
   left: 0;
   top: 0;
+  z-index: 1;
   background-color: rgba(242, 120, 92, 0.7);
   display: flex;
   align-items: center;
@@ -34,7 +35,7 @@ header {
 }
 
 .travel_portal {
-  font-family: 'Magra', sans-serif;
+  font-family: Magra, sans-serif;
   text-decoration: none;
   color: #FFFFFF;
   font-weight: 600;
@@ -50,7 +51,7 @@ header {
 }
 
 .top-nav-li-item {
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: Red Hat Text, sans-serif;
   list-style-type: none;
   color: #FFFFFF;
   font-weight: 500;
@@ -62,7 +63,7 @@ header {
 }
 
 .text-top-nav-li-item {
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: Red Hat Text, sans-serif;
   list-style-type: none;
   color: #FFFFFF;
   font-weight: 500;
@@ -91,12 +92,122 @@ header {
 .text-login-button {
   text-decoration: none;
   color: #FFFFFF;
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: Red Hat Text, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 21.17px;
 }
 
 .text-login-button:hover {
+  text-decoration: 2px underline #FFFFFF;
+}
+
+/* Main */
+.top-block {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-left: 8.3%;
+  z-index: 0;
+  background: transparent url(/img/garrett-parker-DlkF4-dbCOU-unsplash_1.png) no-repeat 0 0;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.top-block-inside {
+  position: absolute;
+  top: 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 892px;
+}
+
+h1 {
+  font-family: Aleo, serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.about-site {
+  float: left;
+  font-family: Aleo, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 55px 0 45px 0;
+}
+
+.top-form-div {
+  float: left;
+  width: 892px;
+  height: 95px;
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 16px;
+}
+
+.top-input-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-input-text {
+  position: relative;
+  background: none;
+  border: none;
+  border-radius: 16px;
+  width: 892px;
+  height: 95px;
+  padding-left: 41px;
+  font-family: Aleo, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #F2785C;
+  outline: none;
+}
+
+.top-input-text::placeholder {
+  font-family: Aleo, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #F2785C;
+  width: 892px;
+}
+
+.top-input-text:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.top-input-submit {
+  position: relative;
+  right: 18px;
+  height: 59px;
+  background: #0D606F;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 32px 10px 32px;
+  font-family: Red Hat Text, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31.75px;
+  cursor: pointer;
+}
+
+.top-input-submit:hover {
   text-decoration: 2px underline #FFFFFF;
 }
