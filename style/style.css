@@ -74,7 +74,7 @@ header {
 }
 
 .text-top-nav-li-item:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px underline #FFFFFF;
 }
 
 .login-button {
@@ -98,5 +98,5 @@ header {
 }
 
 .text-login-button:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px underline #FFFFFF;
 }
