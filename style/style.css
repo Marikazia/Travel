@@ -3,8 +3,9 @@
 }
 
 body {
-  font-family: sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -103,17 +104,25 @@ header {
 }
 
 /* Main */
+/* Top block */
+.top-for-relative-pos {
+  position: relative;
+  width: 100%;
+  height: 765px;
+}
+
 .top-block {
   position: absolute;
-  height: 100%;
+  height: 765px;
   width: 100%;
   padding-left: 8.3%;
   z-index: 0;
   background: transparent url(/img/garrett-parker-DlkF4-dbCOU-unsplash_1.png) no-repeat 0 0;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: start;
+  margin-bottom: 80px;
 }
 
 .top-block-inside {
@@ -153,6 +162,7 @@ h1 {
   background: rgba(255, 255, 255, 0.7);
   border: none;
   border-radius: 16px;
+  margin-bottom: 254px;
 }
 
 .top-input-form {
@@ -210,4 +220,9 @@ h1 {
 
 .top-input-submit:hover {
   text-decoration: 2px underline #FFFFFF;
+}
+
+/* Perfect trip block */
+.perfect-trip-block {
+  position: relative;
 }
