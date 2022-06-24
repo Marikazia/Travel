@@ -416,7 +416,7 @@ button {
 .stories-total-block::after {
   width: 100%;
   content: "";
-  background: url(img/Rectangle-33.png) no-repeat 0 0;
+  background: url("../img/Rectangle-33.png") no-repeat 0 0;
   opacity: 0.5;
   top: 0;
   right: 0;
