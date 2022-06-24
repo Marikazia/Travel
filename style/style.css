@@ -167,7 +167,7 @@ h2 {
 
 .top-form-div {
   float: left;
-  width: 892px;
+  max-width: 892px;
   height: 95px;
   background: rgba(255, 255, 255, 0.7);
   border: none;
