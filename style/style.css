@@ -387,9 +387,6 @@ button {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-
-.find-more-btn-text, .see-more-btn-text {
   text-decoration: none;
   text-transform: capitalize;
   color: #FFFFFF;
@@ -399,7 +396,7 @@ button {
   line-height: 31.75px;
 }
 
-.find-more-btn-text:hover, .see-more-btn-text:hover {
+.find-more-btn:hover, .see-more-btn:hover {
   text-decoration: 2px underline #FFFFFF;
 }
 
