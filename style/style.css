@@ -123,18 +123,16 @@ button {
   right: 8.3%;
   width: 103px;
   height: 41px;
-}
-
-.text-login-btn {
   text-decoration: none;
   color: #FFFFFF;
   font-family: Red Hat Text, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 21.17px;
+  cursor: pointer;
 }
 
-.text-login-btn:hover {
+.login-btn:hover {
   text-decoration: 2px underline #FFFFFF;
 }
 
@@ -378,6 +376,10 @@ button {
   margin-top: 40px;
 }
 
+.find-more-btn-pic, .see-more-btn-pic {
+  margin-right: 10px;
+}
+
 .find-more-btn, .see-more-btn {
   width: 228px;
   height: 59px;
@@ -388,7 +390,6 @@ button {
 }
 
 .find-more-btn-text, .see-more-btn-text {
-  margin-left: 10px;
   text-decoration: none;
   text-transform: capitalize;
   color: #FFFFFF;
@@ -476,6 +477,18 @@ button {
 
 .see-more-btn {
   margin-bottom: 41px;
+  margin-left: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-family: Red Hat Text, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31.75px;
+}
+
+.see-more-btn:hover {
+  text-decoration: 2px underline #FFFFFF;
 }
 
 .footer-part {
