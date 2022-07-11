@@ -61,6 +61,15 @@ h3 {
   opacity: 1;
 }
 
+h4 {
+  font-family: Aleo, serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #0D606F;
+  margin: 0;
+}
+
 button {
   background: #0D606F;
   border-radius: 10px;
@@ -117,9 +126,9 @@ button {
   line-height: 21.17px;
   text-decoration: none;
 }
+
 .text-top-nav-li-item:hover {
-  -webkit-text-decoration: 2px underline #FFFFFF;
-          text-decoration: 2px underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
 }
 
 .login-btn {
@@ -135,9 +144,9 @@ button {
   line-height: 21.17px;
   cursor: pointer;
 }
+
 .login-btn:hover {
-  -webkit-text-decoration: 2px underline #FFFFFF;
-          text-decoration: 2px underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
 }
 
 /* Main */
@@ -215,24 +224,7 @@ button {
   color: #F2785C;
   outline: none;
 }
-.top-input-text::-moz-placeholder {
-  font-family: Aleo, serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #F2785C;
-  width: 892px;
-}
-.top-input-text:-ms-input-placeholder {
-  font-family: Aleo, serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #F2785C;
-  width: 892px;
-}
+
 .top-input-text::placeholder {
   font-family: Aleo, serif;
   font-weight: 400;
@@ -242,6 +234,7 @@ button {
   color: #F2785C;
   width: 892px;
 }
+
 .top-input-text:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -261,9 +254,9 @@ button {
   line-height: 31.75px;
   cursor: pointer;
 }
+
 .top-input-submit:hover {
-  -webkit-text-decoration: 2px underline #FFFFFF;
-          text-decoration: 2px underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
 }
 
 /* Perfect trip block */
@@ -421,9 +414,9 @@ button {
   font-size: 24px;
   line-height: 31.75px;
 }
+
 .find-more-btn:hover, .see-more-btn:hover {
-  -webkit-text-decoration: 2px underline #FFFFFF;
-          text-decoration: 2px underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
 }
 
 /* 	Travel stories */
@@ -509,9 +502,9 @@ button {
   font-size: 24px;
   line-height: 31.75px;
 }
+
 .see-more-btn:hover {
-  -webkit-text-decoration: 2px underline #FFFFFF;
-          text-decoration: 2px underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
 }
 
 .footer-part {
@@ -555,4 +548,12 @@ button {
 
 .soc-bottom-logo {
   cursor: pointer;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.login-pop-up {
+  max-width: 650px;
+}
+
+.lf-header {
+  margin-top: 25px;
+}
