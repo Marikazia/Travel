@@ -3,6 +3,7 @@
 }
 
 body {
+  width: 100vw;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -10,6 +11,10 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.main {
+  width: 100vw;
 }
 
 /* Header */
@@ -153,14 +158,12 @@ button {
 /* Top block */
 .top-for-relative-pos {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 765px;
 }
 
 .top-block {
-  position: absolute;
   height: 765px;
-  width: 100%;
   padding-left: 8.3%;
   z-index: 0;
   background: transparent url("../img/garrett-parker-DlkF4-dbCOU-unsplash1.jpg") no-repeat 0 0;
@@ -169,6 +172,7 @@ button {
   align-items: center;
   justify-content: start;
   margin-bottom: 80px;
+  overflow: hidden;
 }
 
 .top-block-inside {
@@ -260,18 +264,21 @@ button {
 }
 
 /* Perfect trip block */
-.perfect-trip-block {
+#steps {
+  width: 100%;
   position: relative;
+  display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-left: 8.3%;
-  padding-right: 8.3%;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
 }
 
 .total-3-steps {
-  max-width: 1177px;
-  margin: 40px auto 0 auto;
+  width: 82%;
+  left: 9%;
+  right: 9%;
+  margin: 40px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -306,20 +313,30 @@ button {
 }
 
 /* 	Popular destinations */
-.destinations {
+#destinations {
+  width: 100vw;
+  position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .popular-destinations-gallery-block {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: 97px;
+  overflow: hidden;
 }
 
 .gallery-block {
   margin-top: 46px;
   margin-left: -60px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -421,13 +438,18 @@ button {
 
 /* 	Travel stories */
 .travel-stories-section {
+  width: 100vw;
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .stories-total-block {
   position: relative;
   margin-top: 40px;
-  width: 100%;
+  width: 100vw;
   content: "";
   background: url("../img/Rectangle33.jpg") no-repeat 0 0;
   background-size: cover;
