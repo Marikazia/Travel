@@ -3,9 +3,12 @@
 
 body
 	// font-family: sans-serif
+	width: 100vw
 	margin: 0
 	display: flex
 	flex-direction: column
+	// align-items: start
+	// justify-content: center
 
 html
 	scroll-behavior: smooth
@@ -25,6 +28,9 @@ $white-op7-main: rgba(255, 255, 255, 0.7)
 
 // Hug height: 21px 41px 
 // Hug width: 527px
+
+.main
+	width: 100vw
 
 /* Header */
 
@@ -171,13 +177,13 @@ button
 /* Top block */
 .top-for-relative-pos
 	position: relative
-	width: 100%
+	width: 100vw
 	height: 765px
 
 .top-block
-	position: absolute
+	// position: absolute
 	height: 765px
-	width: 100%
+	// width: 100%
 	padding-left: 8.3%
 	z-index: 0
 	background: transparent url("../img/garrett-parker-DlkF4-dbCOU-unsplash1.jpg") no-repeat 0 0
@@ -186,6 +192,7 @@ button
 	align-items: center
 	justify-content: start
 	margin-bottom: 80px
+	overflow: hidden
 
 .top-block-inside
 	position: absolute
@@ -265,18 +272,26 @@ button
 
 /* Perfect trip block */
 
-.perfect-trip-block
+// .perfect-trip-block
+#steps
+	width: 100%
 	position: relative
+	display: inline-flex
+	flex-direction: column
 	align-items: center
 	justify-content: space-between
-	padding-left: 8.3%
-	padding-right: 8.3%
-	margin-top: 80px
+	// margin-left: 9%
+	// margin-right: 9%
+	margin: 80px 0 0 0
 
 .total-3-steps
-	max-width: 1177px
+	width: 82%
+	left: 9%
+	right: 9%
+	// max-width: 1177px
+	// width: 1177px
 	// margin-top: 40px
-	margin: 40px auto 0 auto
+	margin: 40px 0 0 0
 	display: flex
 	align-items: center
 	justify-content: space-between
@@ -308,18 +323,28 @@ button
 
 /* 	Popular destinations */
 
-.destinations
+#destinations
+	width: 100vw
+	position: relative
 	display: flex
+	flex-direction: column
 	align-items: center
 	justify-content: center
+	overflow: hidden
 
 .popular-destinations-gallery-block
 	position: relative
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
 	margin-top: 97px
+	overflow: hidden
 
 .gallery-block
 	margin-top: 46px
 	margin-left: -60px
+	position: relative
 	display: flex
 	align-items: center
 	justify-content: center
@@ -419,7 +444,12 @@ button
 /* 	Travel stories */
 
 .travel-stories-section
+	width: 100vw
 	margin-top: 80px
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
 
 // .stories-total-block
 // 	position: absolute
@@ -436,7 +466,7 @@ button
 .stories-total-block
 	position: relative
 	margin-top: 40px
-	width: 100%
+	width: 100vw
 	// height: 1270px
 	content: ""
 	background: url("../img/Rectangle33.jpg") no-repeat 0 0
