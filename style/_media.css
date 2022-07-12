@@ -1,0 +1,149 @@
+h1, .about-site {
+  display: none;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+header {
+  margin: 43px 16px 67px 16px;
+  padding: 0;
+  height: 32px;
+  background: none;
+  box-shadow: none;
+}
+
+.logo-part {
+  left: 0;
+}
+
+.travel_portal, .top-nav-ul, .login-btn {
+  display: none;
+}
+
+.travel_portal-logo {
+  margin: 0;
+}
+
+.burger-btn {
+  position: absolute;
+  right: 16px;
+  display: block;
+  height: 32px;
+}
+
+.burger-btn-pic {
+  position: absolute;
+  right: 16px;
+  width: 35px;
+  height: 32px;
+  /* Top block */
+}
+
+.top-for-relative-pos {
+  height: 251px;
+}
+
+.top-block {
+  height: 251px;
+  padding: 0;
+}
+
+.top-block-inside {
+  top: 142px;
+}
+
+.top-form-div {
+  height: 48px;
+  max-width: 360px;
+  margin-left: 16px;
+}
+
+.top-input-form {
+  max-width: 360px;
+  height: 48px;
+}
+
+.top-input-text {
+  padding: 0;
+  font-size: 14px;
+  line-height: 17px;
+  width: 360px;
+  margin-left: 16px;
+  height: 48px;
+}
+
+.top-input-text::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  width: 360px;
+  margin-left: 16px;
+  height: 48px;
+}
+
+.top-input-submit {
+  width: 92px;
+  height: 30px;
+  right: 9px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  padding: 7.5px 9px;
+}
+
+/* Perfect trip block */
+#steps {
+  margin-top: 20px;
+}
+
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.flex-gap > .step-block {
+  margin: 16px;
+}
+
+.total-3-steps {
+  width: 360px;
+  left: 15px;
+  right: 15px;
+  margin-top: 21px;
+  row-gap: 16px;
+}
+
+.step-block-1 {
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.step-block-3 {
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.step-block-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.step-block-description {
+  font-size: 10px;
+  line-height: 12px;
+  max-width: 111px;
+  min-width: 98px;
+}
+
+.step-block-description-1 {
+  text-align: left;
+  width: 94px;
+}
+
+.step-block-description-3 {
+  text-align: right;
+  width: 98px;
+}
