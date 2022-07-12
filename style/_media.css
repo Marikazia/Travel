@@ -131,11 +131,20 @@ header {
   height: 70px;
 }
 
+.step-block-logo-img {
+  display: none;
+}
+
+.step-block-logo-img-sm {
+  display: block;
+}
+
 .step-block-description {
   font-size: 10px;
   line-height: 12px;
   max-width: 111px;
   min-width: 98px;
+  height: 24px;
 }
 
 .step-block-description-1 {
