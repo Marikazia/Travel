@@ -254,20 +254,22 @@
 
 	<form action="" class="login-pop-up">
 		<h4 class="lf-header">Log in to your account</h4>
-		<button class="sign-in facebook-in-btn"></button>
-		<button class="sign-in google-in-btn"></button>
+		<button class="sign-in-btn facebook-in-btn"><img href="img/logos/facebook-png.png" class="pop-up-login-svg">Sign
+			In with Facebook</button>
+		<button class="sign-in-btn google-in-btn"><img href="img/logos/Google-png.png" class="pop-up-login-svg">Sign In
+			with Google</button>
 		<div class="hr-or-hr">
-			<hr>or
-			<hr>
+			<hr class="pop-up-hr"> <a class="pop-up-or">or</a>
+			<hr class="pop-up-hr">
 		</div>
-		<label></label><br>
-		<input type="text">
-		<label></label><br>
-		<input type="text">
-		<button>Sign in</button>
-		<p>Forgot your password?</p>
-		<hr>
-		<p>Dont have an account? <a href="#">Register</a> </p>
+		<label for="email-login">E-mail</label><!-- <br> -->
+		<input type="text" id="email-login" class="email-login" name="email-login"><!-- <br> -->
+		<label for="pass-login">Password</label><!-- <br> -->
+		<input type="text" id="pass-login" class="pass-login" name="pass-login"><!-- <br> -->
+		<button class="sign-in-btn">Sign in</button>
+		<a href="#" class="forgot-your-pass-link">Forgot your password?</a>
+		<hr class="pop-up-hr-bot">
+		<p class="have-acc-question">Dont have an account? <a href="#" class="register-link">Register</a> </p>
 	</form>
 
 	<script src="index.js"></script>
