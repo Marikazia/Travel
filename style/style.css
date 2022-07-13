@@ -945,6 +945,11 @@ header {
   line-height: 26px;
 }
 
+.dot-div-block {
+  width: 8px;
+  height: 8px;
+}
+
 .find-more-btn-div, .see-more-btn-div {
   margin-top: 10px;
 }
