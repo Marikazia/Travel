@@ -506,9 +506,19 @@ hr {
   display: flex;
 }
 
-.stories-img {
+.stories-img, .stories-img-sm {
   border-radius: 16px;
+}
+
+.stories-img {
+  display: block;
   filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.stories-img-sm {
+  display: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  height: 130px;
 }
 
 .text-block {
@@ -747,6 +757,12 @@ h2 {
   line-height: 19px;
 }
 
+h3 {
+  font-size: 11px;
+  line-height: 13px;
+  margin-top: 5px;
+}
+
 header {
   margin: 43px 16px 67px 16px;
   padding: 0;
@@ -793,6 +809,7 @@ header {
 
 .top-block-inside {
   top: 142px;
+  width: 390px;
 }
 
 .top-form-div {
@@ -947,4 +964,63 @@ header {
 .find-more-btn-pic-sm, .see-more-btn-pic-sm {
   margin-right: 6px;
   display: block;
+  /* 	Travel stories */
+}
+
+.travel-stories-section {
+  margin-top: 20px;
+}
+
+.stories-total-block {
+  margin-top: 10px;
+}
+
+.stories-block {
+  padding-top: 0;
+}
+
+.stories-block-typical {
+  margin-top: 15px;
+}
+
+.stories-img {
+  display: none;
+}
+
+.stories-img-sm {
+  display: block;
+}
+
+.text-block {
+  height: 130px;
+  margin-left: 10px;
+}
+
+.stories-decription {
+  font-size: 9px;
+  line-height: 11px;
+  margin: 10px 0 0 0;
+  height: 75px;
+  overflow: hidden;
+}
+
+.read-more-link {
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.see-more-btn {
+  margin-bottom: 13px;
+}
+
+.footer-description {
+  display: none;
+}
+
+.soc-bottom-links {
+  right: auto;
+  left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
