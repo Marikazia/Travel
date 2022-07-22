@@ -98,6 +98,9 @@ button
 hr
 	margin: 0
 
+p
+	margin: 0
+
 .logo-part
 	position: absolute
 	left: 8.3%
@@ -195,7 +198,7 @@ hr
 	// width: 100%
 	padding-left: 8.3%
 	z-index: 0
-	background: transparent url("../img/garrett-parker-DlkF4-dbCOU-unsplash1.jpg") no-repeat 0 0
+	background: transparent url("/img/garrett-parker-DlkF4-dbCOU-unsplash1.jpg") no-repeat 0 0
 	background-size: cover
 	display: flex
 	align-items: center
@@ -321,7 +324,7 @@ hr
 	align-items: center
 	justify-content: center
 
-.step-block-logo-img
+.step-block-logo-img-b
 	display: block
 
 .step-block-logo-img-sm
@@ -492,7 +495,7 @@ hr
 	width: 100vw
 	// height: 1270px
 	content: ""
-	background: url("../img/Rectangle33.jpg") no-repeat 0 0
+	background: url("/img/Rectangle33.jpg") no-repeat 0 0
 	// display: block
 	background-size: cover
 	top: 0
@@ -534,8 +537,9 @@ hr
 	border-radius: 16px
 
 .stories-img
-	display: block
+	display: flex
 	filter: drop-shadow(0px 4px 4px #0D606F)
+	height: 250px
 
 .stories-img-sm
 	display: none
@@ -556,6 +560,8 @@ hr
 	position: relative
 	z-index: 1
 	opacity: 1
+	height: 123px
+	overflow: hidden
 
 .read-more-link
 	font-family: Aleo, serif
@@ -772,4 +778,7 @@ label
 	font-family: 'Aleo', serif
 	margin: 20px auto 23px auto
 
-// @import 'media'	
+.sign-up-pop-up
+	display: none
+
+@import 'media.sass'
